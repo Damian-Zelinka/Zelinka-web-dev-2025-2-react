@@ -19,7 +19,7 @@ const Root = () => {
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Zelinka-web-dev-2025-2-react">
       <AuthProvider>
         <App />
       </AuthProvider>
