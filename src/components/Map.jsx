@@ -1,11 +1,23 @@
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from "react-leaflet";
 import L from 'leaflet';
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useNavigate, useLocation  } from 'react-router-dom';
 import CreateNewLandmark from "./CreateNewLandmark.jsx";
 import LandmarkDescription from "./LandmarkDescription.jsx";
 import { useAuth } from './AuthContext.jsx';
 import mapStyles from '../css/map.module.css';
+
+delete L.Icon.Default.prototype._getIconUrl;
+
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl:
+    'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+  iconUrl:
+    'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+  shadowUrl:
+    'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+});
+
 
 function Map() {
 
