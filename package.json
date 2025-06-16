@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Damian-Zelinka.github.io/Zelinka-web-dev-2025-2-react",
+  "homepage": "https://damian-zelinka.github.io/Zelinka-web-dev-2025-2-react",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
