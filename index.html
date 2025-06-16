@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semestral Project</title>
+
+    <style>
+      .loading-div {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background: white;
+      }
+
+      .loading__anim {
+        width: 60px;  
+        height: 60px;
+        display: inline-block;
+
+        border: solid 5px rgba(255, 255, 255, 1);
+        border-top-color: rgba(19, 135, 144, 1);
+        border-right-color: rgba(19, 135, 144, 1);
+        border-radius: 50%;
+        animation: rotate;
+        animation-duration: 700ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes rotate { to {  transform: rotate(1turn) }}
+    </style>
+
+
+    <script type="module" crossorigin src="/assets/index-DyVtEuLn.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DYJP-erK.css">
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading-div">
+        <span class="loading__anim"></span>
+      </div>
+    </div>
+  </body>
+</html>
