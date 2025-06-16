@@ -1,0 +1,102 @@
+.ReactCrop__child-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.main-uploader-div{
+  width: 48%;
+}
+
+.label-preview-div{
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+
+.upload-image{
+  width: 100%;
+  max-height: 300px !important;
+}
+
+.preview img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.main-crop-div{
+  position: relative;
+}
+
+.close-button{
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #757575;
+  cursor: pointer;
+}
+
+.upload-button{
+  background-color: #FF7F50;
+  transition: all 0.25s;
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  width: 160px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.upload-button:hover{
+  background-color: #E76B3A;
+}
+
+.helper-p{
+  text-align: justify;
+}
+
+.images-div{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+
+.preview{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.preview-image{
+  border-radius: 50%;
+}
+
+.preview-button{
+  background-color: #FF7F50;
+  transition: all 0.25s;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 20px !important;
+  width: 220px;
+  height: 67px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 16px;
+}
+
+.preview-button:hover{
+  border-color: #FF7F50;
+  color: #FF7F50;
+  background-color: white;
+}

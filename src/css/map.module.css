@@ -1,0 +1,131 @@
+.map-container{
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+
+.cover{
+    background-color: white;
+    height: 11px;
+    width: 61px;
+    z-index: 1000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 3px;
+    font-size: 10px;
+}
+
+.create-button{
+    background-color: #FF7F50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.25s all;
+    width: 200px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.create-button:hover{
+    background-color: #E76B3A;
+}
+
+.popup-image{
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.popup{
+    width: 445px;
+    
+}
+
+.popup-name{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.popup-button{
+    background-color: #FF7F50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.25s all;
+    width: 100px;
+    height: 25px;
+}
+
+.popup-button:hover{
+    background-color: #E76B3A;
+}
+
+.search-div{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
+.search-input{
+    border: 1px solid #FF7F50;
+    position: relative;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 440px;
+    padding: 10px 10px;
+    outline: none !important; 
+}
+
+.search-input:focus{
+    border: 1px solid #FF7F50 !important;
+    box-shadow: none !important;
+}
+
+.search-button{
+    position: relative;
+    right: 77px;
+    top: -1px;
+    padding: 12px 10px;
+    font-size: 18px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #FF7F50;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.search-button:hover{
+    padding-left: 20px;
+    right: 87px;
+}
+
+.suggestions-div{
+    position: relative;
+    z-index: 10001;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 364px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.suggestion{
+    position: relative;
+    font-size: 20px;
+    max-width: 364px;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: all 0.25s;
+}
+
+.suggestion:hover{
+    background-color: rgb(223, 223, 223);
+}

@@ -1,0 +1,117 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+
+}
+
+.user-data-section{
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    margin: 50px 50px 0 50px;
+}
+
+.personal-data-div{
+    width: 48%;
+}
+
+.label{
+    font-size: 20px;
+}
+
+.input-field-div{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    max-width: 500px;
+}
+
+.input-field{
+    font-size: 20px;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+
+}
+
+.counter{
+    margin: 0;
+    font-size: 16px;
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+}
+
+.submit-button{
+    background-color: #FF7F50;
+    transition: all 0.25s;
+    font-size: 20px;
+    display: block;
+    border: none;
+    color: white;
+    text-align: center;
+    width: 160px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color: #E76B3A;
+}
+
+.landmarks-section{
+    margin: 100px 50px 0 50px;
+}
+
+.landmarks-main-div{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+    align-items: baseline;
+    overflow-x: scroll;
+    /* scroll-behavior: smooth; */
+}
+
+.landmarks-section-p{
+    user-select: none;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.landmark-div{
+    max-width: 400px;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FF7F50;
+    border-radius: 8px;
+    padding: 20px;
+    transition: 0.25s all;
+    cursor: pointer;
+}
+
+.landmark-div:hover{
+    transform: scale(1.05);
+}
+
+.landmark-img{
+    max-width: 350px;
+    max-height: 200px;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.landmark-p{
+    text-align: center;
+    margin-bottom: 0;
+}
